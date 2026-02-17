@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <script data-cfasync="false" src="//dcbbwymp1bhlf.cloudfront.net/?wbbcd=1243483"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <meta http-equiv="Content-Security-Policy"
+        content="
+          default-src 'self';
+          base-uri 'self';
+          object-src 'none';
+          img-src 'self' https://i.ytimg.com data:;
+          script-src 'self';
+          style-src 'self';
+          connect-src 'self';
+          frame-src https://www.youtube-nocookie.com https://www.youtube.com https://www.google.com;
+          upgrade-insecure-requests;
+        ">
+
+  <meta name="referrer" content="no-referrer" />
+  <title>ScriptZ Roblox</title>
+
+  <link rel="stylesheet" href="styles.css?v=5" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="index.html" aria-label="Strona główna">
+        <img class="brand-logo" src="sr.png" alt="ScriptZ Roblox" />
+        <span class="brand-text">ScriptZ Roblox</span>
+      </a>
+
+      <nav class="nav">
+        <a class="nav-link active" href="index.html">Main Page</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="post-head">
+      <a class="backlink" href="index.html">← Back</a>
+      <h1 id="postTitle" class="post-title">...</h1>
+    </div>
+
+    <section class="video-card" aria-label="Podgląd wideo">
+      <div class="video-wrap">
+        <div id="videoMount"></div>
+      </div>
+
+      <div class="cta-row" aria-label="Linki">
+        <a id="workBtn" class="btn btn-primary" href="#" target="_blank" rel="noopener noreferrer">
+          <img class="btn-icon" src="workink.png" alt="" />
+          <span>Work.ink</span>
+        </a>
+
+        <a id="lootBtn" class="btn btn-primary" href="#" target="_blank" rel="noopener noreferrer">
+          <img class="btn-icon" src="lootlabs.png" alt="" />
+          <span>Lootlabs</span>
+        </a>
+      </div>
+
+      <p id="postError" class="error" hidden>Couldn't find the post.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> ScriptZ Roblox</span>
+    </div>
+  </footer>
+
+  <script src="post.js?v=9"></script>
+</body>
+</html>
